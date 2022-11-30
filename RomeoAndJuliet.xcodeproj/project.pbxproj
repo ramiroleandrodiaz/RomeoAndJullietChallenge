@@ -78,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B3C41842937D2B300282F85 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8B58326B29365FBE00871776 /* Main.storyboard */,
+				8B58327029365FBF00871776 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		8B58325929365FBE00871776 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +113,6 @@
 				8B5832952936601D00871776 /* Resources */,
 				8B58326529365FBE00871776 /* AppDelegate.swift */,
 				8B58326729365FBE00871776 /* SceneDelegate.swift */,
-				8B58326B29365FBE00871776 /* Main.storyboard */,
-				8B58327029365FBF00871776 /* LaunchScreen.storyboard */,
 				8B58327329365FBF00871776 /* Info.plist */,
 			);
 			path = RomeoAndJuliet;
@@ -114,6 +121,7 @@
 		8B5832952936601D00871776 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8B3C41842937D2B300282F85 /* Storyboards */,
 				8B58326E29365FBF00871776 /* Assets.xcassets */,
 				8B58329A293685F200871776 /* Constants.swift */,
 			);
