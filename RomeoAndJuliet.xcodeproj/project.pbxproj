@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B58326629365FBE00871776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58326529365FBE00871776 /* AppDelegate.swift */; };
+		8B58326829365FBE00871776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58326729365FBE00871776 /* SceneDelegate.swift */; };
+		8B58326A29365FBE00871776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58326929365FBE00871776 /* ViewController.swift */; };
+		8B58326D29365FBE00871776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58326B29365FBE00871776 /* Main.storyboard */; };
+		8B58326F29365FBF00871776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B58326E29365FBF00871776 /* Assets.xcassets */; };
+		8B58327229365FBF00871776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58327029365FBF00871776 /* LaunchScreen.storyboard */; };
+		8B58327D29365FBF00871776 /* RomeoAndJulietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58327C29365FBF00871776 /* RomeoAndJulietTests.swift */; };
+		8B58328729365FBF00871776 /* RomeoAndJulietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58328629365FBF00871776 /* RomeoAndJulietUITests.swift */; };
+		8B58328929365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58328829365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift */; };
+		8B583299293684A600871776 /* OccurrenceCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B583298293684A600871776 /* OccurrenceCounterViewController.swift */; };
+		8B58329B293685F200871776 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58329A293685F200871776 /* Constants.swift */; };
+		8B58329D293687DE00871776 /* TextInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58329C293687DE00871776 /* TextInputViewController.swift */; };
+		8B5832A32936AC9100871776 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5832A22936AC9100871776 /* String+Extensions.swift */; };
+		8B5832A62936F9AB00871776 /* OccurrenceCounterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5832A52936F9AB00871776 /* OccurrenceCounterTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B58327929365FBF00871776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B58325A29365FBE00871776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B58326129365FBE00871776;
+			remoteInfo = RomeoAndJuliet;
+		};
+		8B58328329365FBF00871776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B58325A29365FBE00871776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B58326129365FBE00871776;
+			remoteInfo = RomeoAndJuliet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B58326229365FBE00871776 /* RomeoAndJuliet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomeoAndJuliet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B58326529365FBE00871776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B58326729365FBE00871776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B58326929365FBE00871776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B58326C29365FBE00871776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B58326E29365FBF00871776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B58327129365FBF00871776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B58327329365FBF00871776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B58327829365FBF00871776 /* RomeoAndJulietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomeoAndJulietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B58327C29365FBF00871776 /* RomeoAndJulietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeoAndJulietTests.swift; sourceTree = "<group>"; };
+		8B58328229365FBF00871776 /* RomeoAndJulietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomeoAndJulietUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B58328629365FBF00871776 /* RomeoAndJulietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeoAndJulietUITests.swift; sourceTree = "<group>"; };
+		8B58328829365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeoAndJulietUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B583298293684A600871776 /* OccurrenceCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccurrenceCounterViewController.swift; sourceTree = "<group>"; };
+		8B58329A293685F200871776 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B58329C293687DE00871776 /* TextInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputViewController.swift; sourceTree = "<group>"; };
+		8B5832A22936AC9100871776 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		8B5832A52936F9AB00871776 /* OccurrenceCounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccurrenceCounterTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B58325F29365FBE00871776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58327529365FBF00871776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58327F29365FBF00871776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B58325929365FBE00871776 = {
+			isa = PBXGroup;
+			children = (
+				8B58326429365FBE00871776 /* RomeoAndJuliet */,
+				8B58327B29365FBF00871776 /* RomeoAndJulietTests */,
+				8B58328529365FBF00871776 /* RomeoAndJulietUITests */,
+				8B58326329365FBE00871776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B58326329365FBE00871776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B58326229365FBE00871776 /* RomeoAndJuliet.app */,
+				8B58327829365FBF00871776 /* RomeoAndJulietTests.xctest */,
+				8B58328229365FBF00871776 /* RomeoAndJulietUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B58326429365FBE00871776 /* RomeoAndJuliet */ = {
+			isa = PBXGroup;
+			children = (
+				8B5832A12936AC8500871776 /* Utils */,
+				8B5832962936603400871776 /* Features */,
+				8B5832952936601D00871776 /* Resources */,
+				8B58326529365FBE00871776 /* AppDelegate.swift */,
+				8B58326729365FBE00871776 /* SceneDelegate.swift */,
+				8B58326929365FBE00871776 /* ViewController.swift */,
+				8B58326B29365FBE00871776 /* Main.storyboard */,
+				8B58327029365FBF00871776 /* LaunchScreen.storyboard */,
+				8B58327329365FBF00871776 /* Info.plist */,
+			);
+			path = RomeoAndJuliet;
+			sourceTree = "<group>";
+		};
+		8B58327B29365FBF00871776 /* RomeoAndJulietTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B58327C29365FBF00871776 /* RomeoAndJulietTests.swift */,
+			);
+			path = RomeoAndJulietTests;
+			sourceTree = "<group>";
+		};
+		8B58328529365FBF00871776 /* RomeoAndJulietUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B58328629365FBF00871776 /* RomeoAndJulietUITests.swift */,
+				8B58328829365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift */,
+			);
+			path = RomeoAndJulietUITests;
+			sourceTree = "<group>";
+		};
+		8B5832952936601D00871776 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B58326E29365FBF00871776 /* Assets.xcassets */,
+				8B58329A293685F200871776 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B5832962936603400871776 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8B583297293660DF00871776 /* OccurrenceCounter */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8B583297293660DF00871776 /* OccurrenceCounter */ = {
+			isa = PBXGroup;
+			children = (
+				8B5832A42936F99B00871776 /* Cells */,
+				8B583298293684A600871776 /* OccurrenceCounterViewController.swift */,
+				8B58329C293687DE00871776 /* TextInputViewController.swift */,
+			);
+			path = OccurrenceCounter;
+			sourceTree = "<group>";
+		};
+		8B5832A12936AC8500871776 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8B5832A22936AC9100871776 /* String+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8B5832A42936F99B00871776 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8B5832A52936F9AB00871776 /* OccurrenceCounterTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B58326129365FBE00871776 /* RomeoAndJuliet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B58328C29365FBF00871776 /* Build configuration list for PBXNativeTarget "RomeoAndJuliet" */;
+			buildPhases = (
+				8B58325E29365FBE00871776 /* Sources */,
+				8B58325F29365FBE00871776 /* Frameworks */,
+				8B58326029365FBE00871776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomeoAndJuliet;
+			productName = RomeoAndJuliet;
+			productReference = 8B58326229365FBE00871776 /* RomeoAndJuliet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B58327729365FBF00871776 /* RomeoAndJulietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B58328F29365FBF00871776 /* Build configuration list for PBXNativeTarget "RomeoAndJulietTests" */;
+			buildPhases = (
+				8B58327429365FBF00871776 /* Sources */,
+				8B58327529365FBF00871776 /* Frameworks */,
+				8B58327629365FBF00871776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B58327A29365FBF00871776 /* PBXTargetDependency */,
+			);
+			name = RomeoAndJulietTests;
+			productName = RomeoAndJulietTests;
+			productReference = 8B58327829365FBF00871776 /* RomeoAndJulietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B58328129365FBF00871776 /* RomeoAndJulietUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B58329229365FBF00871776 /* Build configuration list for PBXNativeTarget "RomeoAndJulietUITests" */;
+			buildPhases = (
+				8B58327E29365FBF00871776 /* Sources */,
+				8B58327F29365FBF00871776 /* Frameworks */,
+				8B58328029365FBF00871776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B58328429365FBF00871776 /* PBXTargetDependency */,
+			);
+			name = RomeoAndJulietUITests;
+			productName = RomeoAndJulietUITests;
+			productReference = 8B58328229365FBF00871776 /* RomeoAndJulietUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B58325A29365FBE00871776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B58326129365FBE00871776 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8B58327729365FBF00871776 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8B58326129365FBE00871776;
+					};
+					8B58328129365FBF00871776 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8B58326129365FBE00871776;
+					};
+				};
+			};
+			buildConfigurationList = 8B58325D29365FBE00871776 /* Build configuration list for PBXProject "RomeoAndJuliet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B58325929365FBE00871776;
+			productRefGroup = 8B58326329365FBE00871776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B58326129365FBE00871776 /* RomeoAndJuliet */,
+				8B58327729365FBF00871776 /* RomeoAndJulietTests */,
+				8B58328129365FBF00871776 /* RomeoAndJulietUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B58326029365FBE00871776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B58327229365FBF00871776 /* LaunchScreen.storyboard in Resources */,
+				8B58326F29365FBF00871776 /* Assets.xcassets in Resources */,
+				8B58326D29365FBE00871776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58327629365FBF00871776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58328029365FBF00871776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B58325E29365FBE00871776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B58329B293685F200871776 /* Constants.swift in Sources */,
+				8B5832A32936AC9100871776 /* String+Extensions.swift in Sources */,
+				8B583299293684A600871776 /* OccurrenceCounterViewController.swift in Sources */,
+				8B5832A62936F9AB00871776 /* OccurrenceCounterTableViewCell.swift in Sources */,
+				8B58326A29365FBE00871776 /* ViewController.swift in Sources */,
+				8B58326629365FBE00871776 /* AppDelegate.swift in Sources */,
+				8B58329D293687DE00871776 /* TextInputViewController.swift in Sources */,
+				8B58326829365FBE00871776 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58327429365FBF00871776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B58327D29365FBF00871776 /* RomeoAndJulietTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B58327E29365FBF00871776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B58328929365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift in Sources */,
+				8B58328729365FBF00871776 /* RomeoAndJulietUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B58327A29365FBF00871776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B58326129365FBE00871776 /* RomeoAndJuliet */;
+			targetProxy = 8B58327929365FBF00871776 /* PBXContainerItemProxy */;
+		};
+		8B58328429365FBF00871776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B58326129365FBE00871776 /* RomeoAndJuliet */;
+			targetProxy = 8B58328329365FBF00871776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B58326B29365FBE00871776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B58326C29365FBE00871776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B58327029365FBF00871776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B58327129365FBF00871776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B58328A29365FBF00871776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B58328B29365FBF00871776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B58328D29365FBF00871776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYTB3VN7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RomeoAndJuliet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TELADOC.RomeoAndJuliet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B58328E29365FBF00871776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYTB3VN7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RomeoAndJuliet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TELADOC.RomeoAndJuliet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B58329029365FBF00871776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYTB3VN7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TELADOC.RomeoAndJulietTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomeoAndJuliet.app/RomeoAndJuliet";
+			};
+			name = Debug;
+		};
+		8B58329129365FBF00871776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYTB3VN7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TELADOC.RomeoAndJulietTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomeoAndJuliet.app/RomeoAndJuliet";
+			};
+			name = Release;
+		};
+		8B58329329365FBF00871776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYTB3VN7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TELADOC.RomeoAndJulietUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RomeoAndJuliet;
+			};
+			name = Debug;
+		};
+		8B58329429365FBF00871776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYTB3VN7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TELADOC.RomeoAndJulietUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RomeoAndJuliet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B58325D29365FBE00871776 /* Build configuration list for PBXProject "RomeoAndJuliet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B58328A29365FBF00871776 /* Debug */,
+				8B58328B29365FBF00871776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B58328C29365FBF00871776 /* Build configuration list for PBXNativeTarget "RomeoAndJuliet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B58328D29365FBF00871776 /* Debug */,
+				8B58328E29365FBF00871776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B58328F29365FBF00871776 /* Build configuration list for PBXNativeTarget "RomeoAndJulietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B58329029365FBF00871776 /* Debug */,
+				8B58329129365FBF00871776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B58329229365FBF00871776 /* Build configuration list for PBXNativeTarget "RomeoAndJulietUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B58329329365FBF00871776 /* Debug */,
+				8B58329429365FBF00871776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B58325A29365FBE00871776 /* Project object */;
+}
