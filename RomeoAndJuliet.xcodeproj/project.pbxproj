@@ -9,13 +9,9 @@
 /* Begin PBXBuildFile section */
 		8B58326629365FBE00871776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58326529365FBE00871776 /* AppDelegate.swift */; };
 		8B58326829365FBE00871776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58326729365FBE00871776 /* SceneDelegate.swift */; };
-		8B58326A29365FBE00871776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58326929365FBE00871776 /* ViewController.swift */; };
 		8B58326D29365FBE00871776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58326B29365FBE00871776 /* Main.storyboard */; };
 		8B58326F29365FBF00871776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B58326E29365FBF00871776 /* Assets.xcassets */; };
 		8B58327229365FBF00871776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58327029365FBF00871776 /* LaunchScreen.storyboard */; };
-		8B58327D29365FBF00871776 /* RomeoAndJulietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58327C29365FBF00871776 /* RomeoAndJulietTests.swift */; };
-		8B58328729365FBF00871776 /* RomeoAndJulietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58328629365FBF00871776 /* RomeoAndJulietUITests.swift */; };
-		8B58328929365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58328829365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift */; };
 		8B583299293684A600871776 /* OccurrenceCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B583298293684A600871776 /* OccurrenceCounterViewController.swift */; };
 		8B58329B293685F200871776 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58329A293685F200871776 /* Constants.swift */; };
 		8B58329D293687DE00871776 /* TextInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58329C293687DE00871776 /* TextInputViewController.swift */; };
@@ -44,16 +40,12 @@
 		8B58326229365FBE00871776 /* RomeoAndJuliet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomeoAndJuliet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B58326529365FBE00871776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B58326729365FBE00871776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B58326929365FBE00871776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B58326C29365FBE00871776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B58326E29365FBF00871776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B58327129365FBF00871776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B58327329365FBF00871776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B58327829365FBF00871776 /* RomeoAndJulietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomeoAndJulietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B58327C29365FBF00871776 /* RomeoAndJulietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeoAndJulietTests.swift; sourceTree = "<group>"; };
 		8B58328229365FBF00871776 /* RomeoAndJulietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomeoAndJulietUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B58328629365FBF00871776 /* RomeoAndJulietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeoAndJulietUITests.swift; sourceTree = "<group>"; };
-		8B58328829365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomeoAndJulietUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B583298293684A600871776 /* OccurrenceCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccurrenceCounterViewController.swift; sourceTree = "<group>"; };
 		8B58329A293685F200871776 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B58329C293687DE00871776 /* TextInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				8B58326429365FBE00871776 /* RomeoAndJuliet */,
-				8B58327B29365FBF00871776 /* RomeoAndJulietTests */,
-				8B58328529365FBF00871776 /* RomeoAndJulietUITests */,
 				8B58326329365FBE00871776 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,29 +104,11 @@
 				8B5832952936601D00871776 /* Resources */,
 				8B58326529365FBE00871776 /* AppDelegate.swift */,
 				8B58326729365FBE00871776 /* SceneDelegate.swift */,
-				8B58326929365FBE00871776 /* ViewController.swift */,
 				8B58326B29365FBE00871776 /* Main.storyboard */,
 				8B58327029365FBF00871776 /* LaunchScreen.storyboard */,
 				8B58327329365FBF00871776 /* Info.plist */,
 			);
 			path = RomeoAndJuliet;
-			sourceTree = "<group>";
-		};
-		8B58327B29365FBF00871776 /* RomeoAndJulietTests */ = {
-			isa = PBXGroup;
-			children = (
-				8B58327C29365FBF00871776 /* RomeoAndJulietTests.swift */,
-			);
-			path = RomeoAndJulietTests;
-			sourceTree = "<group>";
-		};
-		8B58328529365FBF00871776 /* RomeoAndJulietUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8B58328629365FBF00871776 /* RomeoAndJulietUITests.swift */,
-				8B58328829365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift */,
-			);
-			path = RomeoAndJulietUITests;
 			sourceTree = "<group>";
 		};
 		8B5832952936601D00871776 /* Resources */ = {
@@ -317,7 +289,6 @@
 				8B5832A32936AC9100871776 /* String+Extensions.swift in Sources */,
 				8B583299293684A600871776 /* OccurrenceCounterViewController.swift in Sources */,
 				8B5832A62936F9AB00871776 /* OccurrenceCounterTableViewCell.swift in Sources */,
-				8B58326A29365FBE00871776 /* ViewController.swift in Sources */,
 				8B58326629365FBE00871776 /* AppDelegate.swift in Sources */,
 				8B58329D293687DE00871776 /* TextInputViewController.swift in Sources */,
 				8B58326829365FBE00871776 /* SceneDelegate.swift in Sources */,
@@ -328,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B58327D29365FBF00871776 /* RomeoAndJulietTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B58328929365FBF00871776 /* RomeoAndJulietUITestsLaunchTests.swift in Sources */,
-				8B58328729365FBF00871776 /* RomeoAndJulietUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
